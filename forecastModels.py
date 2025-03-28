@@ -80,7 +80,7 @@ def calculateMetrics(predictions, actuals):
     return mad, mse, mape
 
 # --- Main Execution Block ---
-dataFrame = pd.read_excel("C:\\Users\\Ravindra\\Downloads\\MSU-Assignment-Summaya\\2\\HW 5 - ES and LR.xlsx")
+dataFrame = pd.read_excel("HW 5 - ES and LR.xlsx")
 monthList = dataFrame['Month'].tolist()
 demandList = dataFrame['Demand'].tolist()
 
